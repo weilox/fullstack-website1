@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Now</title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <h2>Register Now</h2>
+            <div id="message"></div>
+            <form id="register">
+                <div>
+                    <label for="username">Enter your username</label><br>
+                    <input type="text" name="username" id="username" autocomplete="off">
+                </div>
+                <div>
+                    <label for="email">Enter your email</label><br>
+                    <input type="email" name="email" id="email" autocomplete="off">
+                </div>
+                <div>
+                    <label for="password">Enter your password</label><br>
+                    <input type="password" name="password" id="password" autocomplete="off">
+                </div>
+                <div>
+                    <input type="submit" value="Create" id="create">
+                </div>
+                <a href="/login">Do you have an account? Log in.</a>
+            </form>
+        </div>
+        <div class="box2"></div>
+    </div>
+
+    <script src="js/register.js"></script>
+</body>
+</html>

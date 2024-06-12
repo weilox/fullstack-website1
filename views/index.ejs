@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Home Page</title>
+</head>
+<body>
+    <div class="navbar">
+        <ul class="logo">
+            <li><a href="/">Projectname</a></li>
+        </ul>
+        <% if (logged) { %>
+            <ul class="account">
+                <li><a href="/logout">Logout</a></li>
+            </ul>
+        <% } else { %>
+            <ul class="account">
+                <li><a href="/login">Login</a></li>
+                <li><a href="/register">Register</a></li>
+            </ul>
+        <% } %>
+    </div>
+
+    <div class="header">
+        <h2>Discover, Engage, Inspire: Welcome to Our Blog Community: Where Words Connect, Ideas Flourish, Knowledge Blooms.</h2>
+    </div>
+    
+    <main>
+        <div class="box1">
+            <h2>
+                Add Your Post Today
+            </h2>
+            <a href="#">Get Started</a>
+        </div>
+    </main>
+    <footer>
+        <h2>All rights reserved &copy;</h2>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
